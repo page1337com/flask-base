@@ -23,5 +23,5 @@ jobs:
         with:
           context: ./
           tags: |
-            ghcr.io/flask-base
+            ghcr.io/page1337com/flask-base/flask-base
           push: ${{ github.ref == 'refs/heads/main' }}
