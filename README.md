@@ -14,7 +14,7 @@ Flask Base in Docker via Github Actions to Github Packages
 └── requirements.txt
 ```
 
-#Prerequisites
+# Prerequisites
 - Ubuntu (Recommended)
 - docker.io
 - docker-compose
@@ -23,10 +23,15 @@ Flask Base in Docker via Github Actions to Github Packages
 sudo apt install docker.io docker-compose -y 
 ```
 
+# How to use
 ```
 git clone https://github.com/page1337com/flask-base
 ```
 
 ```
 docker-compose build && docker-compose up -d && docker-compose logs -f
+```
+
+```
+curl localhost:8080
 ```
