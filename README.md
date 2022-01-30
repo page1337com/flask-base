@@ -1,4 +1,4 @@
-# flask-base
+# flask-base [![master](https://github.com/page1337com/flask-base/actions/workflows/master.yml/badge.svg)](https://github.com/page1337com/flask-base/actions/workflows/master.yml)
 Flask Base in Docker via Github Actions to Github Packages
 
 ```
